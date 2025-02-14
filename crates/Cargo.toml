@@ -11,7 +11,7 @@ overflow-checks = true
 anyhow = "*"
 assert_matches = "*"
 async-trait = "*"
-backoff = { version = "*" features = ["tokio"] }
+backoff = { version = "*", features = ["tokio"] }
 base64 = "*"
 bincode = "*"
 borsh = "*"
@@ -34,10 +34,10 @@ solana-sdk = "*"
 solana-send-transaction-service = "*"
 solana-transaction-status = "*"
 solana-vote-program = "*"
-tarpc = { version = "*" features = ["full"] }
+tarpc = { version = "*", features = ["full"] }
 thiserror = "*"
-tokio = { version = "*" features = ["macros"] }
-tokio-serde = { version = "*" features = ["bincode"] }
-tracing = { version = "*" features = ["log"] }
+tokio = { version = "*", features = ["macros"] }
+tokio-serde = { version = "*", features = ["bincode"] }
+tracing = { version = "*", features = ["log"] }
 yellowstone-grpc-client = "*"
 yellowstone-grpc-proto = "*"
