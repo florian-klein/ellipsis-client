@@ -39,5 +39,5 @@ thiserror = "*"
 tokio = { version = "*", features = ["macros"] }
 tokio-serde = { version = "*", features = ["bincode"] }
 tracing = { version = "*", features = ["log"] }
-yellowstone-grpc-client = "*"
-yellowstone-grpc-proto = "*"
+yellowstone-grpc-client = { git = "https://github.com/rpcpool/yellowstone-grpc.git"}
+yellowstone-grpc-proto = { git = "https://github.com/rpcpool/yellowstone-grpc.git"}
