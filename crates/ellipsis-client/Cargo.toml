@@ -38,5 +38,3 @@ thiserror = { workspace = true }
 tokio = { workspace = true }
 tokio-serde = { workspace = true }
 tracing = { workspace = true }
-yellowstone-grpc-client = { workspace = true }
-yellowstone-grpc-proto = { workspace = true }
