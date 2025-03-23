@@ -39,5 +39,3 @@ thiserror = "*"
 tokio = { version = "*", features = ["macros"] }
 tokio-serde = { version = "*", features = ["bincode"] }
 tracing = { version = "*", features = ["log"] }
-yellowstone-grpc-client = "*"
-yellowstone-grpc-proto = "*"
